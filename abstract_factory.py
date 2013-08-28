@@ -26,7 +26,7 @@ class PetShop:
 
 # Stuff that our factory makes
 
-class Dog:
+class Dog(object):
     def speak(self):
         return "woof"
 
@@ -34,7 +34,7 @@ class Dog:
         return "Dog"
 
 
-class Cat:
+class Cat(object):
     def speak(self):
         return "meow"
 
